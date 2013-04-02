@@ -1,0 +1,4 @@
+name: dart-web_ui-samples
+description: Simple examples for working with web_ui.
+dependencies:
+  web_ui: any

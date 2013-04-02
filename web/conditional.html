@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    
+    <p>Show content: <input type="checkbox" bind-checked="showContent" /></p>
+
+    <template if="showContent">
+      <p>This is some content.</p>
+    </template>
+
+    <script type="application/dart" src="conditional.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

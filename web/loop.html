@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+
+    <ul>
+      <template iterate="fruit in fruits">
+        <li>{{fruit}}</li>
+      </template>
+    </ul>
+
+    <input type="text" bind-value="newFruit" placeholder="New Fruit" />
+    <button on-click="addFruit()">Add Fruit</button>
+
+    <script type="application/dart" src="loop.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
